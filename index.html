@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Full Responsive Website</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./images/logo.png">
+            <div class="links" id="links" id="links">
+                <i class="toggle fas fa-times" onclick="hideNav()"></i>
+                <ul>
+                    <li><i class="fas fa-home"></i> Home</li>
+                    <li><i class="fas fa-user-check"></i> about</li>
+                    <li><i class="fas fa-key"></i> skills</li>
+                    <li><i class="fas fa-heart"></i> interest</li>
+                    <li><i class="fas fa-comment"></i> testimonials</li>
+                    <li><i class="fas fa-phone"></i> connect me</li>
+                </ul>
+            </div>
+            <i class="toggle fas fa-bars" onclick="showNav()"></i>
+        </nav>
+        <div class="content">
+            <h1><span style="color: crimson;">We</span>b Trend</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates <br> accusantium modi laborum magnam.</p>
+            <a href="#">Connect me</a>
+            <span><i class="fas fa-chevron-double-down"></i></span>
+        </div>
+    </header>
+    <!-- Start About me -->
+    <div class="about_me">
+        <h1><span>About</span> me</h1>
+        <div class="content">
+            <img src="./images/about.png">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <strong style="color: crimson;"> consectetur facere perferendis ipsa! </strong>Unde eligendi fugiat vitae molestias expedita. Iste corrupti illum ut. Illo, non alias officiis animi doloribus quas?</p>
+        </div>
+    </div>
+    <!-- Start Skills -->
+    <div class="skills">
+        <h1>My <span>Skills</span></h1>
+        <div class="tools">
+            <img src="./images/git.png">
+            <img src="./images/html.png">
+            <img src="./images/css.png">
+            <img src="./images/bootstrap.png">
+            <img src="./images/jquery.png">
+            <img src="./images/js.png">
+            <img src="./images/o2.jfif">
+            <img src="./images/php.png">
+            <img src="./images/linux.png">
+            <img src="./images/sql.png">
+            <img src="./images/w-plugins.png">
+            <img src="./images/wordpress.png">
+        </div>
+        <p>These are some tools that I used in my <strong style="color: crimson;">web development career</strong></p>
+    </div>
+<!-- Start Interest -->
+    <div class="interest">
+        <h1>My <span>Interest</span></h1>
+        <div class="content">
+            <img src="./images/interest.png">
+            <p>Lorem ipsum dolor sit amet consectetur<strong style="color: crimson;"> adipisicing elit. </strong>Voluptatum, nemo aliquam praesentium, sequi illo,<strong style="color: crimson;"> rerum voluptas </strong>magni odio incidunt iure voluptatem. Dolorem aliquam quisquam consequatur, magni reiciendis fuga asperiores ipsa.</p>
+        </div>
+    </div> -->
+    <!-- Start Testimonials -->
+    <div class="testimonials">
+        <h1><span>Testimonials</span></h1>
+        <div class="content">
+            <div class="text_box">
+                <img src="./images/1.jpg">
+                <h3>Rodrigo Costa</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam facere eius adipisci esse laborum placeat dolore enim nesciunt nulla iure! Quidem accusantium aut nihil iure tenetur ipsa voluptatem, distinctio fuga?</p>
+            </div>
+            <div class="text_box">
+                <img src="./images/2.jpg">
+                <h3>Eva Adams</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam facere eius adipisci esse laborum placeat dolore enim nesciunt nulla iure! Quidem accusantium aut nihil iure tenetur ipsa voluptatem, distinctio fuga?</p>
+            </div>
+            <div class="text_box">
+                <img src="./images/3.jpg">
+                <h3>Peter Hans</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam facere eius adipisci esse laborum placeat dolore enim nesciunt nulla iure! Quidem accusantium aut nihil iure tenetur ipsa voluptatem, distinctio fuga?</p>
+            </div>
+        </div>
+    </div>
+    <!-- Start Connect ME -->
+    <div class="connect_me">
+        <h1><span>Connect </span>me</h1>
+        <div class="social_media">
+            <div class="content">
+                <h3>Facebook <i class="fab fa-facebook-f"></i></h3>
+                <a href="#">www.facebook.com</a>
+            </div>
+            <div class="content">
+                <h3>Instagram <i class="fab fa-instagram"></i></h3>
+                <a href="#">www.instagram.com</a>
+            </div>
+            <div class="content">
+                <h3>G-mail <i class="far fa-envelope"></i></h3>
+                <a href="#">www.gmail.com</a>
+            </div>
+            <div class="content">
+                <h3>Github <i class="fab fa-github"></i></h3>
+                <a href="#">www.github.com</a>
+            </div>
+        </div>
+    </div>
+    <footer>My Portofolio &copy; All Rights Reserved. <br> Web Trend 2021</footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var links= document.getElementById('links');
+        function showNav(){
+            links.style.right = '0';
+        }
+        function hideNav(){
+            links.style.right = '-100%';
+        }
+    </script>
+</body>
+</html>
